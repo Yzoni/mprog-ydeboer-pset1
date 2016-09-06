@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="nl.yrck.mprog_mrpotatohead.MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:animateLayoutChanges="true">
+
+    <RelativeLayout
+        android:id="@+id/images"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/potato_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/body"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/potato_arms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arms"
+            android:visibility="invisible"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/potato_ears"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ears"
+            android:visibility="invisible"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/potato_eyebrows"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/eyebrows"
+            android:visibility="invisible"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/potato_eyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/eyes"
+            android:visibility="invisible"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/potato_glasses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/glasses"
+            android:visibility="invisible"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/potato_hat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hat"
+            android:visibility="invisible"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/potato_mouth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mouth"
+            android:visibility="invisible"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/potato_mustache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mustache"
+            android:visibility="invisible"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/potato_nose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nose"
+            android:visibility="invisible"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/potato_shoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shoes"
+            android:visibility="invisible"
+            android:adjustViewBounds="true"/>
+    </RelativeLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="4">
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/checkbox_arms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arms" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/checkbox_ears"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ears" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/checkbox_eyebrows"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eyebrows" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/checkbox_eyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eyes" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/checkbox_glasses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Glasses" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/checkbox_hat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hat" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/checkbox_mouth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mouth" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/checkbox_mustache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mustache" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/checkbox_nose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nose" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/checkbox_shoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shoes" />
+    </GridLayout>
+
+</LinearLayout>
